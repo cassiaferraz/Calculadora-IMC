@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" href="public/Lapiz Boligrafo _3Masa.png">
+    <!--O JAVA SCRIPT FICOU DENTRO DA TAG HEAD-->
+    
+</head>
+<!--DOCUMENT É COMO O ARQUIVO E ELEMENTS É TUDO QUE CRIEI DENTRO DO FORM-->
+<body>
+    <form id="imcForm" name="imcForm" action="#">
+        <label for="altura">Insira a altura:</label>
+        <input type="text" id="altura" name="altura">
+        <br>
+
+        <label for="peso">Insira o peso:</label>
+        <input type="text" id="peso" name="peso">
+        <br>
+<!--O INPUT ABAIXO CRIOU O BOTÃO E FUNÇÃO (CALCULAR)-->
+        <input type="submit" value="Calcular" onclick="calculaimc()">
+
+    </form>
+    <script src="../PROJETOVINTE/JS/app.js"></script>
+</body>
+</html>
